@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="grain"></div>
+    <div id="quiz-container">
+      <h2 class="hidden" id="scoreh2">You scored 0 out of 6!</h2>
+      <h2 id="question">Question</h2>
+      <ul>
+        <li>
+          <input type="radio" id="a" name="answer" class="answer" /><label
+            for="a"
+            id="label-a"
+            >1. Answer</label
+          >
+        </li>
+        <li>
+          <input type="radio" id="b" name="answer" class="answer" /><label
+            for="b"
+            id="label-b"
+          >
+            2. Answer</label
+          >
+        </li>
+        <li>
+          <input type="radio" id="c" name="answer" class="answer" /><label
+            for="c"
+            id="label-c"
+          >
+            3. Answer</label
+          >
+        </li>
+        <li>
+          <input type="radio" id="d" name="answer" class="answer" /><label
+            for="d"
+            id="label-d"
+          >
+            4. Answer</label
+          >
+        </li>
+      </ul>
+      <button id="submit">Submit</button>
+    </div>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
