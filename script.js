@@ -36,7 +36,7 @@ const quizData = [
   {
     question: "Which is the most subscribed youtube channel?",
     a: "Better call saul",
-    b: "KSI nigga",
+    b: "KSI",
     c: "Mr. This",
     d: "T-series",
     correct: "d",
